@@ -46,7 +46,7 @@ function SendSMS(heartrate)  {
 				'</JobOptions>' +
 				'<Destinations>' +
 					'<DeliveryItemGeneric type="sms">' +
-						'<Address>0031610067504</Address>' +
+						'<Address>003312345678</Address>' +
 					'</DeliveryItemGeneric>' +
 				'</Destinations>' +
 				'<Reports>' +
