@@ -1,0 +1,7 @@
+This shows how to use the companion to send a SOAP request using fetch() and how to send an event message from the device to 
+the companion for delivery in a soap request. Also gets the response. 
+The SOAP message uses the Easylink/opentext notifications APIs - that's a paid service which you need to register for but the 
+principle of using the web service is the same for any web service client.
+
+This example detects when a heartbeat is above 60 BPM and passes a message from the APP to the COMPANION. the COMPANION implements a web service client
+using fetch(). 
